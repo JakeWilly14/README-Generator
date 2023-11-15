@@ -25,7 +25,7 @@
 6
 
 ###License
-7
+MIT License
 
 ###Questions
 8

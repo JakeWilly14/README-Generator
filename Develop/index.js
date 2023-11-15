@@ -1,51 +1,8 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
+const generateMarkdown = require('./utils/generateMarkdown')
 
-// TODO: Create a function to write README file
-const generateReadMe = ({
-  title,
-  description,
-  installation,
-  usage,
-  contributors,
-  test,
-  license,
-  github,
-  email,
-}) =>
-  `#${title}
-
-##Description
-${description}
-
-##Table of Contents
-
-*[Installation](###Installation)
-*[Usage](###Usage)
-*[Contributors](###Contributors)
-*[Test Instructions](###Test-Instructions)
-*[License](###License)
-*[Questions](###Questions)
-  
-###Installation
-${installation}
-
-###Usage
-${usage}
-
-###Contributors
-${contributors}
-
-###Test Instructions
-${test}
-
-###License
-${license}
-
-###Questions
-${github}
-${email}`;
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -80,9 +37,19 @@ const questions = [
     message: "Enter test instructions for your project.",
   },
   {
-    type: "input",
+    type: "list",
     name: "license",
     message: "Choose a license for your project.",
+    choices: [
+      'Apache 2.0',
+      'GNU GPL v3.0',
+      'MIT',
+      'BSD 2-Clause',
+      'BSD 3-Clause',
+      'Boost',
+      'The Unilicense',
+      'Other'
+    ]
   },
   {
     type: "input",
@@ -96,18 +63,19 @@ const questions = [
   },
 ];
 
+// TODO: Create a function to write README file
+function createReadMe(data) {
+  fs.writeFile('README.md', data, (err) => {
+  err ? console.log(err) : console.log("Successfully created README.md!")
+  });
+}
+
+
 // TODO: Create a function to initialize app
 function init() {
   inquirer
     .prompt(questions)
-    .then((answers) => {
-      console.log(answers);
-      const readMeContent = generateReadMe(answers);
-      
-      fs.writeFile('README.md', readMeContent, (err) =>
-        err ? console.log(err) : console.log("Successfully created README.md!")
-      );
-    });
+    .then((answers) => createReadMe(generateMarkdown(answers)));
 }
 
 // Function call to initialize app
