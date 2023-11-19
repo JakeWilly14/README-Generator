@@ -48,43 +48,52 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  let licenseSection = '';
+
+  if (license !== 'Other') {
+    licenseSection = '### License\n'
+    licenseSection = '### License\n This project is licensed with ' + renderLicenseLink(license) + '. Click the link for more information.'
+  } 
+  return licenseSection;
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
-  #${title}
+  return `
+  # ${data.title}\n
+
+  ${renderLicenseBadge(data.license)}
   
-  ##Description
-  ${description}
+  ## Description\n
+  ${data.description}
   
-  ##Table of Contents
+  ## Table of Contents\n
   
-  *[Installation](###Installation)
-  *[Usage](###Usage)
-  *[Contributors](###Contributors)
-  *[Test Instructions](###Test-Instructions)
-  *[License](###License)
-  *[Questions](###Questions)
+  * [Installation](###-Installation)
+  * [Usage](###-Usage)
+  * [Contributors](###-Contributors)
+  * [Test Instructions](###-Test-Instructions)
+  * [License](###-License)
+  * [Questions](###-Questions)
     
-  ###Installation
-  ${installation}
+  ### Installation\n
+  ${data.installation}
   
-  ###Usage
-  ${usage}
+  ### Usage\n
+  ${data.usage}
   
-  ###Contributors
-  ${contributors}
+  ### Contributors\n
+  ${data.contributors}
   
-  ###Test Instructions
-  ${test}
+  ### Test Instructions\n
+  ${data.test}
   
-  ###License
-  ${license}
-  
-  ###Questions
-  ${github}
-  ${email}`;
+  ${renderLicenseSection(data.license)}\n
+
+  ### Questions\n
+  Check out my Github Repo here at: [${data.github}](https://github.com/${data.github})\n
+  Email me at: ${data.email}`;
 }
 
 module.exports = generateMarkdown;

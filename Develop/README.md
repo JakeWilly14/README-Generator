@@ -1,32 +1,45 @@
-#1
 
-##Description
-2
+  # 1
 
-##Table of Contents
 
-*[Installation](###Installation)
-*[Usage](###Usage)
-*[Contributors](###Contributors)
-*[Test Instructions](###Test-Instructions)
-*[License](###License)
-*[Questions](###Questions)
+  ![License Badge](https://shields.io/badge/license-MIT-green)
   
-###Installation
-3
+  ## Description
 
-###Usage
-4
+  2
+  
+  ## Table of Contents
 
-###Contributors
-5
+  
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [Contributors](#Contributors)
+  * [Test Instructions](#Test-Instructions)
+  * [License](#License)
+  * [Questions](#Questions)
+    
+  ### Installation
 
-###Test Instructions
-6
+  3
+  
+  ### Usage
 
-###License
-MIT License
+  4
+  
+  ### Contributors
 
-###Questions
-8
-9
+  5
+  
+  ### Test Instructions
+
+  6
+  
+  ### License
+ This project is licensed with [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT). Click the link for more information.
+
+
+  ### Questions
+
+  Check out my Github Repo here at: [8](https://github.com/8)
+
+  Email me at: 9
