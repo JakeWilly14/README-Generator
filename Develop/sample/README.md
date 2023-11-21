@@ -1,45 +1,34 @@
 
-  # README.md Generator
+  # Sample
 
-
-  ![License Badge](https://shields.io/badge/license-MIT-green)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   ## Description
-
-  This is a node.js command-line application that generates a high-quality README.md file after taking user's input using inquirer.
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   
   ## Table of Contents
-
-  
-  * [Installation](###-Installation)
-  * [Usage](###-Usage)
-  * [Contributors](###-Contributors)
-  * [Test Instructions](###-Test-Instructions)
-  * [License](###-License)
-  * [Questions](###-Questions)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributors](#contributors)
+  * [Tests](#tests)
+  * [License](#license)
+  * [Questions](#questions)
     
-  ### Installation
-
-  Follow this Github link to my repository [GITHUB](https://github.com/JakeWilly14/README-Generator), clone the repo to your local machine, then use npm install to install necessary project files.
+  ## Installation
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   
-  ### Usage
-
-  After installation, user must run the node index.js command in their terminal. They will be prompted with general README.md questions that will generate markdown based of user's input.
+  ## Usage
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   
-  ### Contributors
-
-  KU coding bootcamp develop code. Charles Williams completed code. 
+  ## Contributors
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   
-  ### Test Instructions
-
-  No current test at this time.
+  ## Tests
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   
-  ### License
+  ## License
  This project is licensed with [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT). Click the link for more information.
 
-
-  ### Questions
-
-  Check out my Github Repo here at: [Jakewilly14](https://github.com/Jakewilly14)
-
-  Email me at: jakewilly14@gmail.com
+  ## Questions
+  Check out my Github Repo at: [Anonymous](https://github.com/Anonymous)
+  Email me at: anon@email.com
