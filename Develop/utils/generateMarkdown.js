@@ -96,7 +96,7 @@ function generateMarkdown(data) {
   ${renderLicenseSection(data.license)}
 
   ## Questions
-  Check out my Github Repo at: [${data.github}](https://github.com/${data.github})
+  Check out my Github Repo at: [${data.github}](https://github.com/${data.github})\n
   Email me at: ${data.email}`;
 }
 
